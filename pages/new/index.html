@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Subscribe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.9">
+    
+    
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="forms.css" />
+        <link rel="stylesheet" href="animations.css" />
+        <link rel="stylesheet" href="main.css" />
+        
+        
+        <!--Bootstrap & Font-awesome-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        
+        <!--Titre-->
+         <title>Personnaliser votre profil</title>
+        
+        <!--Scripts-->
+        
+        
+        
+    </head>
+    
+    <body>
+        
+        <div class="limiter">
+          
+        
+    <!--Header-->
+          <header>
+           
+            <nav class="navbar navbar-default" style=" background: -webkit-linear-gradient(right, #ee2f00, #ee5f00, #ee7700, #ee0017, #ee0003 );
+  background: -o-linear-gradient(right,  #ee2f00, #ee5f00, #ee7700, #ee0017, #ee0003);
+  background: -moz-linear-gradient(right,  #ee2f00, #ee5f00, #ee7700, #ee0017, #ee0003);
+  background: linear-gradient(right, #ee2f00, #ee5f00, #ee7700, #ee0017, #ee0003); ">
+              
+            <div class="container">
+           
+  
+                 
+                <ul class="nav navbar-nav navbar-right" style="float: right; ">
+                    <li><a href="" style=" color: white; position: relative; right: -10px;"> Bienvenue sur Hibou ! </a></li>
+                   
+                </ul>
+            </div>
+            </nav>
+        </header>
+        
+          <div id="main">
+              
+              
+              
+              
+    <!--Page d'accueil-->
+                    <div id="home">
+                            <div class = "row">
+				            <img src = "..\..\images\icons\logo3.png" id = "home_logo"> 
+				            </div>    
+
+                        <button type="button" class = "continue_btn" style="border-style: none !important; margin-top: 50%;" id="continue_btn"> 
+                            <p id="button_p" style="color: white; font-family: 'Segoe UI'; font-size: medium; padding-top: 8px;"> Continuer </p> </button> 
+                    </div>
+              
+              
+              
+              
+    <!--Premier formulaire-->
+             
+              
+        <form class="form" name="form" method="post" id="form" enctype="multipart/form-data">
+            
+        
+        
+        <div class = "text">
+            
+            <span class = "span_text"> Personnaliser votre profil <i class='far fa-arrow-alt-circle-right' id="icon_next_one" style='font-size:30px;color:white'></i> </span>   
+        </div>
+            
+        <div class = "center_icon">
+                
+            <i class="material-icons" style="color:white; font-size: 150px;" id="photo_icon">&#xe439;</i>
+
+            
+            
+        </div>
+        
+        
+        
+        <div class="select_image"  >
+            
+            <input type="file" name="file" id="file"  class="inputfile" accept=".jpg, .jpeg, .png" unique  />
+            <label for="file" class="label_file" > 
+                <span class="button_t"> Sélectionnez une image <i style="font-size:20px" class="fa">    &#xf03e;    </i>    </span>
+            </label>
+        </div>
+            
+        <div class="input_d">
+                    <input type="date" value="1999-05-09" id="date" class="daterangepicker"  name="date" class="button_t" id="validation"/>
+                    <label for="date" class="label_date"> <span class="date_t"> Date de naissance   </span>
+                    </label>
+                    
+        </div>
+            <div class="button">
+             <input type="submit" value="Valider" id="submit_perso"/>
+            </div>
+            
+            
+           
+        </form>
+        
+              
+              
+
+    
+              
+              <!--Fin du MAIN-->
+              </div>
+    
+    
+    
+    </div>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="scripts.js"></script>
+    
+    
+    </body>
+
+
+</html>
+
+
+
+

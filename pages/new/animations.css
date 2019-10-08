@@ -1,0 +1,45 @@
+
+@keyframes animate
+{
+	0%  {left: 0%;}
+	33% {left: 15%; opacity: 0.2; transition: left opacity ease-out;}
+	66% {left: -30%; opacity: 0.6; transition: left opacity ease-out;}
+	100% {left: 0%; opacity: 1; transition: left opacity ease-out;}
+}
+
+@keyframes disappear
+{
+	0% {opacity: 1;}
+	10% {opacity: 0.9; transition: opacity ease-out;}
+	20% {opacity: 0.8; transition: opacity ease-out;}
+	30% {opacity: 0.7; transition: opacity ease-out;}
+	40% {opacity: 0.6; transition: opacity ease-out;}
+	50% {opacity: 0.5; transition: opacity ease-out;}
+	60% {opacity: 0.4; transition: opacity ease-out;}
+	100% {opacity: 0; transition: opacity ease-out;}
+}
+
+
+@-webkit-keyframes animate
+{
+	0%  {left: 75%;}
+	33% {left: 100%;  opacity: 0.2; transition: left opacity ease-out;}
+	66% {left: 50%;  opacity: 0.6; transition: left opacity ease-out;}
+	100% {left: 75%;  opacity: 1; transition: left opacity ease-out;}
+}
+
+@-moz-keyframes animate
+{
+	0%  {left: 75%; }
+	33% {left: 100%;  opacity: 0.2; transition: left opacity ease-out;}
+	66% {left: 50%;  opacity: 0.6; transition: left opacity ease-out;}
+	100% {left: 75%;  opacity: 1; transition: left opacity ease-out;}
+}
+
+@@-o-keyframes animate
+{
+	0%  {left: 75%; }
+	33% {left: 100%;  opacity: 0.2; transition: left opacity ease-out;}
+	66% {left: 50%;  opacity: 0.6; transition: left opacity ease-out;}
+	100% {left: 75%;  opacity: 1; transition: left opacity ease-out;}
+}
