@@ -4,9 +4,9 @@ This repository contains a chat-app Form App priorly designed for a school proje
 ## Screenshots 
 
 > **Discover the other features by downloading the software ! ** :blush:
-![Home page:](Hibou_home.PNG)
-![Registration page:](Hibou_inscription.PNG)
-![Chat page:](Hibou_Message.PNG)
+![Home page:](Hibou_home.png)
+![Registration page:](Hibou_inscription.png)
+![Chat page:](Hibou_Message.png)
 
 
 
