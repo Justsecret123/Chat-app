@@ -12,7 +12,7 @@ This repository contains a chat-app Form App priorly designed for a school proje
 
 
 ## About the project
-The software language is French. It is mainly made in pure web languages (HMTL, CSS, JavaScript)...though the links with the database is made with pure SQL queries & PHP. It was first in order to complete a school assignment, but I have deciced to upload it here to help some developpers not to do the exact same application,  for academic or project purposes by giving some patterns. Feel free to contribute, improve or criticize.
+The software language is French. It is mainly made in pure web languages (HMTL, CSS, JavaScript)...though the links with the database is made with pure SQL queries & PHP. It was first in order to complete a school assignment, but I have deciced to upload it here to help some developpers not to do the exact same application, but for academic or project purposes by giving some patterns. Feel free to contribute, improve or criticize.
 
 ## Features
 The project includes : 
