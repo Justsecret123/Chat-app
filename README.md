@@ -1,2 +1,33 @@
-# Chat-app
-This repository contains a chat application. Language : French (english version incoming). Tools: Font Awesome, JQuery/Javascript, HTML, CSS, PHP, Bootstrap, SQL.
+## Chat-app
+This repository contains a chat-app Form App priorly designed for a school project. 
+
+## Screenshots 
+
+> **Discover the other features by downloading the software ! ** :blush:
+![Home page:](Hibou_home.PNG)
+![Registration page:](Hibou_inscription.PNG)
+![Chat page:](Hibou_Message.PNG)
+
+
+
+
+## About the project
+The software language is French. It is mainly made in pure web languages (HMTL, CSS, JavaScript)...though the links with the database is made with pure SQL queries & PHP. It was first for a school project, but I have deciced to upload it here to help some developpers not to do the exact same application, but for academic or project purposes by giving some patterns. Feel free to contribute, improve or criticize.
+
+## Features
+The project includes : 
+- Text messsages as well as attachments. 
+- Account creation.
+- [x] Account modifications (not yet)
+
+**Disclaimer : this project does not rely ont HTTPS, and some database requests are not yet fully-secured. Your contributions would be welcomed.**
+
+## Pre-requisites & How to use :
+To properly use it, you should first create a local MySQL schema which title will be "projet2"; unless you do not desire a database connection,but some features would be restricted. After installing, run the MySQL schema building script located [here](https://github.com/Justsecret123/Chat-app/blob/master/database.sql).
+
+## Tools
+- Languages : HTML5, CSS3, JavaScript/JQuery, PHP7, SQL; 
+- Text editor : Brackets
+- Web server : Apache
+- Databse server : MySQL
+- Frameworks: Bootsrap, Font Awesome.
