@@ -18,7 +18,7 @@ The software language is French. It is mainly made in pure web languages (HMTL, 
 The project includes : 
 - Text messsages as well as attachments. 
 - Account creation.
-- [x] Account modifications (not yet)
+- [] Account modifications (not yet)
 
 **Disclaimer : this project does not rely ont HTTPS, and there are some security flaws. Your contributions would be welcomed.**
 
