@@ -27,7 +27,7 @@ To properly use it, you should first create a local MySQL schema which title wil
 
 ## Tools
 - Languages : HTML5, CSS3, JavaScript/JQuery, PHP7, SQL; 
-- Text editor : Brackets
-- Web server : Apache
-- Databse server : MySQL
+- Text editor : Brackets;
+- Web server : Apache;
+- Databse server : MySQL;
 - Frameworks: Bootsrap, Font Awesome.
