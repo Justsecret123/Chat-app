@@ -1,5 +1,6 @@
 ## Chat-app
-This repository contains a chat-app Form App priorly designed for a school project. 
+This repository contains a chat-app Form App priorly priorly made in order to complete a school project assignment.
+
 
 ## Screenshots 
 
@@ -20,7 +21,7 @@ The project includes :
 - Account creation.
 - [] Account modifications (not yet)
 
-**Disclaimer : this project does not rely ont HTTPS, and there are some security flaws. Your contributions would be welcomed.**
+**Disclaimer : this project does not rely on HTTPS, and there are still some security flaws. Your contributions would be welcomed.**
 
 ## Pre-requisites & How to use :
 To properly use it, you should first create a local MySQL schema which title will be "projet2"; unless you do not desire a database connection,but some features would be restricted. After installing, run the MySQL schema building script located [here](https://github.com/Justsecret123/Chat-app/blob/master/database.sql).
